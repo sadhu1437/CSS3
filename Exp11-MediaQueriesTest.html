@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        /*hue,saturation,lightness*/
+        .container{
+            margin: 0;
+            background: hsl(154,94%,37%);
+            box-sizing: border-box;
+        }
+        /* Smartphones (potrait and landscape) */
+        @media screen and (min-width:767px){
+            .container{
+                width:100%;
+                padding: 5px 10px;
+        }
+    }
+    /* tablets,ipads (potrait and landscape) */
+    @media screen and (min-width:768px) and (max-width:1024px)
+    {
+        .container{
+            width:750px;
+            padding: 5px 10px;
+    }
+}
+/*Low resolution Desktops and laptops (landscape) */
+@media screen and (min-width:1024px){
+    .container{
+        width:980px;
+        padding: 5px 15px;
+}
+}
+/*High resolution Desktops and laptops (landscape) */
+@media screen and (min-width:1280px){
+    .container{
+        width:1200px;
+        padding: 5px 20px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nihil expedita voluptatibus omnis, nisi officiis consectetur nostrum architecto eveniet facilis minima! Explicabo tenetur assumenda sequi quas consectetur laudantium accusantium architecto.</p>
+      <p>Numquam nemo, voluptatum ad itaque ut omnis placeat sapiente voluptate! Architecto fugiat officia aperiam vel, soluta atque beatae cum sint nihil qui neque voluptatibus aut accusamus numquam maiores saepe. Sapiente!</p>
+      <p>Corporis itaque sed neque cum reprehenderit soluta, et dolorem corrupti mollitia nesciunt excepturi, dolorum earum expedita quo possimus vel deleniti ullam nobis distinctio perferendis minima eligendi esse doloremque? Distinctio, dolores?</p>
+      <p>Blanditiis laboriosam culpa, officia totam praesentium quas reprehenderit. Ratione, mollitia vitae. Inventore quos enim dolores ab, minima, architecto numquam animi quis libero, quia qui iste cumque consequatur similique ea praesentium.</p>
+      <p>Tempora quibusdam doloremque voluptatibus excepturi officiis consequuntur aliquam praesentium, accusantium laudantium ratione mollitia voluptates nihil optio nobis veniam dolorum vel porro ullam rerum earum beatae. Aperiam mollitia vero in nulla!</p>
+      <p>Quod harum officia cum tempore tempora odio sequi reiciendis maiores quis amet eaque, ad veritatis dignissimos eligendi corporis molestiae accusantium vel laboriosam corrupti hic sit velit a ex enim. Fugit.</p>
+      <p>Iure laboriosam tempora recusandae! Molestiae unde officiis dolor quod, itaque eveniet incidunt sunt atque, dignissimos repudiandae doloremque vero eum temporibus, ad cumque dicta voluptatibus maiores quibusdam dolorem assumenda quisquam eaque.</p>
+      <p>Minima ea quibusdam quisquam quaerat in, fugiat laboriosam qui cupiditate autem praesentium earum corporis ex eveniet veniam reiciendis neque non provident, quod nobis eos quidem doloremque obcaecati sunt repellendus. Quaerat.</p>
+      <p>Numquam aut commodi maxime optio libero officiis quasi perferendis atque dolores voluptatibus ex soluta animi minus, harum nam tempore iusto deserunt dolor in recusandae ipsa iure fuga. Accusamus, vero reiciendis!</p>
+      <p>Ipsum aliquam, minus ad molestias voluptate aperiam nesciunt quas corrupti possimus, corporis fuga. Hic cumque, asperiores dicta ad possimus qui iure vero nostrum dolorem non quos esse, magnam minus fuga!</p>
+    </div>
+</body>
+</html>
